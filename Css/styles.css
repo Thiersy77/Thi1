@@ -1,4 +1,4 @@
-/* Author: Thiersy Cassano Date:18nov22  File Name: styles.css */
+/* Author: Thiersy Cassano Date:25nov22  File Name: styles.css */
 /* CSS Reset */
 body, header, nav, main, footer, h1, h3, div, img, ul, aside, figure, figcaption {
     margin: 0;
@@ -136,11 +136,7 @@ main {
         opacity: 1;
         box-shadow: 8px 8px 10px #808080;
       }
-      .grid-hob {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-gap: 10px;
-      }
+      
           aside {
             grid-column: 1 / span 3;
 

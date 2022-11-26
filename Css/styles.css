@@ -175,8 +175,14 @@ main {
          main ul {
            margin: 0 0 2% 10%
          }
-
-     }
+		  
+.grid-hob {
+       display: grid;
+       grid-template-columns: auto auto auto;
+       grid-gap: 20px;
+       align-items: stretch;
+     }    
+}
 
           /* Media Query for Desktop Viewport */
           @media screen and (min-width:1015px), print{
